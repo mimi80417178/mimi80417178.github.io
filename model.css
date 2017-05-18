@@ -1,0 +1,192 @@
+body{
+margin: 0;
+padding: 0;
+background-color: #f3f2f2;
+}
+
+.container{
+width: 960px;
+background-color: white;
+margin: auto;
+
+}
+
+.header{
+height: 40px;
+background-color:whitesmoke;
+}
+
+.header ul{
+list-style-type: none;
+margin: 0px;
+padding: 0px;
+}
+
+.header ul li{
+float: left;
+height: 40px;
+line-height: 40px;
+text-align: center;
+}
+
+.header ul li a{
+text-decoration: none;
+margin-left: 10px;
+margin-right: 10px;
+font-family: sans-serif;
+font-size: 16px;
+}
+
+.header ul li:hover{
+background-color:#e6e6e6;
+}
+
+.demo{
+float: right;
+padding-top: 5px;
+padding-right: 5px;
+}
+
+.picture{
+height: 350px;
+width: 100%;
+}
+
+.picture img:hover{
+opacity: 0.9;
+}
+
+.section{
+height: 320px;
+padding: 6px;
+}
+
+.section .s1{
+height:305px;
+width: 300px;
+float: left;
+border-radius: 5px;
+border: 0.5px #f3f2f2 solid;
+margin: 6px;
+}
+
+.section .s1 img{
+ width: 100%;
+ width: 300px;
+ height: 112px;
+border-top-right-radius: 5px;
+border-top-left-radius: 5px;
+}
+
+.section .s1 h3{
+ text-align: center;
+ margin-bottom: -10px;
+}
+
+.section .s1 p{
+ text-align: center;
+}
+
+.article{
+height: 300px;
+border-top-right-radius: 5px;
+border-top-left-radius: 5px;
+
+
+}
+
+.article .a1{
+height: 290px;
+width: 65%;
+background-color: white;
+margin-top: -5px;
+margin-left: 10px;
+float: left;
+}
+
+.article .a1 h4{
+border-bottom: 0.5px solid #e6e6e6;
+background-color: whitesmoke;
+padding-left: 5px;
+border-top-right-radius: 5px;
+border-top-left-radius: 5px;
+}
+
+.article .a1 p{
+border-left:0.5px #f3f2f2 solid;
+border-right:0.5px #f3f2f2 solid;
+border-bottom:0.5px #f3f2f2 solid;
+padding-left: 10px;
+padding-bottom: 10px;
+}
+
+.article .a2 {
+height: 290px;
+width: 30%;
+background-color: white;
+float: right;
+margin-top: 5px;
+margin-right: 25px;
+padding: 5px;
+border:0.5px #f3f2f2 solid;
+}
+
+.footer{
+height: 40px;
+}
+
+.footer p{
+margin: 0px;
+padding: 0px;
+border-top: 0.5px #f3f2f2 solid;
+margin-top: 10px;
+padding:10px;
+
+	
+}
+
+
+
+@media screen and (max-width:959px){
+	.container{
+	    width: 100%;
+	}
+	.header{
+	    width: 100%;  
+	}
+	.header .demo{
+	    width: 100%;  
+	}
+	.header ul{
+	    width: 100%;  
+	}
+	.picture img{
+		width: 100%;
+				
+	}
+	.section{
+		width: 100%;
+		margin-top: 30px;
+	}
+	.section .s1{
+		width: 100%;
+	}
+	.section .s1 img{
+		width: 100%;
+	}
+	.article{
+		width: 100%;
+		margin-left: 25px;
+			}
+	.article .a1{
+		width: 100%;
+
+	}
+	.article .a2{
+		width: 100%;
+		padding-left:50px;
+	}
+	
+
+}
+
