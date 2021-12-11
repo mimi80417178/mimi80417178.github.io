@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="shop-3.css">
+    <script src="shop-3.js" defer></script>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+     <title>Shopping Cart-3(html+css+js)</title>
+</head>
+  <body>
+          <!-- navbar -->
+         <nav class="navbar">
+            <div class="navbar-center">
+                <span class="nav-icon">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </span>
+                <span>Shopping  Salad  Cart</span>
+                <div class="cart-btn">
+                    <span class="nav-icon">
+                       <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                    </span>
+                    <div class="cart-items"> 0</div>
+                </div>
+            </div>
+         </nav><!-- END of navbar -->
+
+         <!-- hero -->
+         <header class="hero">
+            <div class="banner">
+                <h3 class="banner-title">Delicious Food</h3>
+                <button class="banner-btn">shop now</button>
+            </div>
+         </header> <!-- END of hero -->
+        
+         <!-- section products -->
+         <section class="products">
+            <div class="section-title">
+                <h2>Our products</h2>
+            </div>
+            <!-- products-center -->
+         <div class="products-center">
+            <article class="product">
+                <div class="img-container">
+                    <img src="./photo/cabbage1.png" alt="product" class="product-img"/>
+                    <button class="bag-btn" data-id ="1" value="1">
+                      <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                      Add to bag  
+                    </button>
+                     <h3>Cabbage</h3>
+                     <h4>Price NTD</h4>
+                     <h4>100</h4>
+                </div>                    
+            </article>
+            <article class="product">
+                <div class="img-container">
+                    <img src="./photo/chicken2.png" alt="product" class="product-img">
+                    <button class="bag-btn" data-id ="2" value="2">
+                      <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                      Add to bag  
+                    </button>
+                    <h3>Chicken</h3>
+                    <h4>Price NTD</h4>
+                     <h4>280</h4>
+                </div>                     
+                
+            </article>
+            <article class="product">
+                <div class="img-container">
+                    <img src="./photo/tomatos3.png" alt="product" class="product-img">
+                    <button class="bag-btn" data-id ="3" value="3">
+                      <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                      Add to bag  
+                    </button>
+                      <h3>Tomatos</h3>
+                      <h4>Price NTD</h4>
+                     <h4>250</h4>
+                </div>        
+            </article>
+            <article class="product">
+                <div class="img-container">
+                    <img src="./photo/mix4.png" alt="product" class="product-img"/>
+                    <button class="bag-btn" data-id ="4" value="4">
+                      <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                      Add to bag  
+                    </button>
+                     <h3>Mix</h3>
+                     <h4>Price NTD</h4>
+                     <h4>320</h4>
+                </div>                   
+            </article>
+            <article class="product">
+                <div class="img-container">
+                    <img src="./photo/sauce5.png" alt="product" class="product-img">
+                    <button class="bag-btn" data-id ="5" value="5">
+                      <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                      Add to bag  
+                    </button>
+                    <h3>Sauce</h3>
+                    <h4>Price NTD</h4>
+                     <h4>380</h4>
+                </div>           
+          </article>            
+          </div> <!-- END of products-center --> 
+         </section><!-- END of section products -->
+         
+         <!-- <div class="cart"> -->         
+            <div class="cart">
+                <span class="close-cart">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </span>
+                <h2 >Cart Lists</h2>
+                <!-- Cart item <div class="cart-content"> -->
+                <div class="cart-content">
+                    <!--
+                    <div class="cart-item">
+                       <img src="./photo/cabbage1.png" alt="product"/>
+                        <div>
+                            <h4>Cabbage</h4>
+                            <h4>Price</h4>
+                            <h5>100</h5>
+                            <span class="remove-item">remove</span>
+                        </div>
+                    
+                    <div>
+                       <i class="fa fa-arrow-up"></i>
+                       <p class="item-amount">1</p>
+                       <i class="fa fa-arrow-down"></i>
+                    </div>
+                </div> --> <!-- END of Cart item <div class="cart-content"> -->  
+
+                              
+            </div>
+            <div class="cart-footer">
+                 <h3>Your total : NTD $<span class="cart-total">0</span> </h3> 
+                <button class="clear-cart banner-btn">clear cart</button>   
+            </div>
+         
+        </div><!-- END of <div class="cart">  -->
+         
+
+
+  </body>
+</html>
