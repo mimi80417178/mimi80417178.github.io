@@ -31,7 +31,7 @@ for (var i = 0;  i < addBagBtn.length; i++) {
         //console.log(addBtn)
 	 e.target.preventdefault
         e.target.innerHTML = "In Cart"; // button點擊時 "Add to Bag" 會變成 "In Cart"
-        //e.target.disabled = false; // 1.disabled 禁止按鈕功能 2.button點擊時 設定只能點擊一次的功能 = disabled = true;
+       
 	 	 	let buildCartItemsData = {
 			image: e.target.parentElement.children[0].src,
 			name: e.target.parentElement.children[2].textContent,
